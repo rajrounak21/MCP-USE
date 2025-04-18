@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "description": "Opens and interacts with websites using a headless browser. Useful for visiting URLs and clicking elements, but may not bypass bot protection on sites like Google or ChatGPT."
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb"
+      ],
+      "description": "Queries Airbnb listings and travel-related data. Use for travel-related questions or booking info."
+    },
+    "duckduckgo-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "duckduckgo-mcp-server"
+      ],
+      "description": "Searches the web using DuckDuckGo. Use this for any general-purpose information search or query."
+    },
+        "mongodb": {
+      "command": "npx",
+      "args": ["coincap-mcp"
+      ],
+
+      "description": "Get live cryptocurrency data like prices,market cap,and 24h changes for tokens like Bitcoin, Ethereum,etc."
+    }
+  }
+}
