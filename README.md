@@ -1,4 +1,4 @@
-# MCP-USE 🤖
+# MCP-USE 
 
 A powerful CLI-based AI assistant using Langchain, Groq LLM, and Multi-Command Protocol (MCP) to interact with the web, search engines, crypto markets, and travel data — all with conversational memory.
 
