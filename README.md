@@ -8,7 +8,7 @@ A powerful CLI-based AI assistant using Langchain, Groq LLM, and Multi-Command P
 - ⚡ Groq LLM (Qwen 32B)
 - 🌐 Headless web browsing via Playwright
 - 🔍 DuckDuckGo search
-- 🏡 Airbnb data access
+- 🏡 Airbnb data accesses
 - 💰 Live crypto prices
 
 ## 📂 Structure
