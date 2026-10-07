@@ -1,9 +1,9 @@
+import os
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 import asyncio
 from mcp_use import MCPAgent,MCPClient
-import os
 async def run_memory_chat():
     load_dotenv()
     os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
