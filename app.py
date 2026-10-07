@@ -1,8 +1,8 @@
 import os
+import asyncio
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-import asyncio
 from mcp_use import MCPAgent,MCPClient
 async def run_memory_chat():
     load_dotenv()
